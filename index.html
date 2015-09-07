@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Synthteic synthetic-demo</title>
+	<script src="http://studio:88/components/vendor/dist/vendor.js" baseurl=""></script>
+	<script src="http://studio:88/components/vendor-component/index.js" baseurl=""></script>
+	<!--<script src="http://studio:88/components/synthet/dist/synthet.js"></script>-->
+	<script>
+	Vendor.addAlias('abstudio', 'http://studio:88/components/');
+	Vendor.addAlias('polyvitamins', 'http://studio:88/polyvitamins/');
+	</script>
+</head>
+<body>
+	<synthetic-demo>
+		<tagname>synthetic-something</tagname>
+		<description>This is description of something</description>
+		<demo>This is demostration</demo>
+	</synthetic-demo>
+</body>
+<script>
+vendor(['http://studio:88/syntheticjs/synthetic/component.json'], function() {
+	vendor(['http://studio:88/syntheticjs/synthetic-demo/component.json'], function() {
+		
+	});
+});
+</script>
+</html>

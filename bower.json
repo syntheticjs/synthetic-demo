@@ -1,0 +1,34 @@
+{
+  "name": "synthetic-demo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/syntheticjs/synthetic-demo",
+  "authors": [
+    "Morulus <vladimirmorulus@gmail.com>"
+  ],
+  "description": "Synthetic demo page",
+  "main": "dist/synthetic-demo.js",
+  "authors": [
+  {
+    "name": "Vladimir Kalmykov (Morulus)",
+    "email": "vladimirmorulus@gmail.com"
+  }
+],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "synthetic": "latest"
+  }
+}

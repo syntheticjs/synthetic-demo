@@ -1,0 +1,26 @@
+{
+  "name": "synthetic-demo",
+  "repository": "syntheticjs/synthetic-demo",
+  "description": "Synthetic demo page",
+  "version": "0.0.1",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Vladimir Kalmykov (Morulus)",
+      "email": "vladimirmorulus@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "license": "MIT",
+  "remotes": [
+    "github"
+  ],
+  "main": "dist/synthetic-demo.js",
+  "scripts": [
+    "src/synthetic-demo.js"
+  ],
+  "tags": [
+    "syntheticjs",
+    "demo"
+  ]
+}
